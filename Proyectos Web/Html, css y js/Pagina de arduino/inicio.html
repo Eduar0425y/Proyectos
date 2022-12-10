@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<head>
+    <title>Baraʞ</title>
+    <meta charset="UTF-8"> </meta>
+    <link rel="stylesheet" href="css/inicio.css">
+    <link rel="icon" href="imagenes/Miniatura.jpg" type="image/x-icon">
+</head>
+<body class="bodyFondo">
+    <div class="headerInicio">
+        <div class="tituloInicio">
+            <div class="logosBarak">
+                <img src="imagenes/logoFinalPagina.jpg" class="logoHeader">
+            </div>
+
+            <div class="contenedorBucador">
+                <form>
+                    <input type="text" placeholder="Search.." name="search" class="buscadorEntrada">
+                    <button type="submit" class="contenedorBoton"><img src="imagenes/inicio/lupaBuscador.png" width="20px"></button>
+                </form>
+            </div>
+        </div>
+
+        <div class="contenedorNav">
+            <ul class="columnasMenuNav">
+                <li class="filasMenuNav">
+                    <a class="botonMenuNav" href="inicio.html">Inicio</a>
+                </li>
+                <li class="filasMenuNav">
+                    <a class="botonMenuNav" href="index.html">Definicion</a>
+                </li>
+                <li class="filasMenuNav">
+                    <a class="botonMenuNav" href="arduinos.html">Tipos</a>
+                </li>
+                <li class="filasMenuNav">
+                    <a class="botonMenuNav" href="sensores.html">Sensores</a>
+                </li>
+                <li class="filasMenuNavDerecha">
+                    <a class="botonMenuNavDerecha" href="descargas.html">Descargas</a>
+                </li>
+            </ul>
+        </div>
+        
+
+    </div>
+
+    <div class="cuerpoInicio">
+        <div class="contenedorLogo">
+            <div class="aniBarakLogo">
+                <img src="imagenes/inicio/barakLogo.png" class="logoIzquierdaCarrusel">
+            </div>
+
+            <div class="textoLogo">
+                <div class="textoAnimacion animacionTexto">
+                    <h3>¿Quienes somos?</h3>
+                    <P>BARAK es un lugar donde podrás aprender acerca de arduino
+                        tanto de su hardware como de su software, los tipos de arduinos que extisten,
+                        los sensores o perifericos que en el podemos conectar y tambien puede descargar 
+                        su programa para cualquier sistema operativo desde nuestra pagina.
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="footerInicio">
+
+                <ul class="columnasMenuNav">
+                    <li class="iconoGmail">
+                        <img src="imagenes/inicio/iconoGmail.png" class="imgIconoGmail">
+                    </li>
+                    <li class="correoElectronico">
+                        <p>barak@gmail.com</p>
+                    </li>
+                    <li class="iconoComentario">
+                        <a href="ayuda.html">
+                            <img src="imagenes/inicio/iconoComentarios.png" class="imgIconoComentario">
+                        </a>
+                    </li>
+                </ul>
+
+                <p class="derechosReservados">© 2022 BARAK</p>
+        
+            </div>
+
+        </div>
+        <div class="contenedorCarrusel">
+
+            <div class="contenedorBotonIconosRedes">
+                <div class="botonSalirRedes" onmouseover="redes(1)" id="contenedorRedesBoton">
+                    <div id="animacionParaBoton" class="botonEntrada">
+                        <img src="imagenes/inicio/flchaRedes.png" class="imgBotonSalirRedes">
+                    </div>
+                </div>
+                <div class="contenedorIconosRedes animacionRedes" id="contenedorIconos">
+                    <div class="iconosRedesSocialesFacebookInicio">
+                        <a href="https://www.facebook.com/profile.php?id=100076397861818">
+                            <img src="imagenes/iconoFaceboock.png" width="40px" height="auto">
+                        </a>
+                    </div>
+                    <div class="iconosRedesSocialesTwitterInicio">
+                        <a href="https://twitter.com/BarakArduino">
+                            <img src="imagenes/iconoTwitter.png" width="40px" height="auto">
+                        </a>
+                    </div>
+                    <div class="iconosRedesSocialesIgInicio">
+                        <a href="https://www.instagram.com/xavier_4520/">
+                            <img src="imagenes/iconoIg.png" width="40px" height="auto">
+                        </a>
+                    </div>
+                    <div class="flchaDerechaRedes" onclick="redes(0)">
+                        <img src="imagenes/inicio/flechaDerecha.png" width="20px" height="auto">
+                    </div>
+                </div>
+            </div>
+
+            <div class="imagenesCarrusel sigImagen">
+                 <img src="imagenes/inicio/carrusel4.jpg" style="width:100%; height: 600px">
+            </div>
+            
+            <div class="imagenesCarrusel sigImagen">
+                <img src="imagenes/inicio/carrusel2.jpg" style="width:100%; height: 600px">
+            </div>
+            
+            <div class="imagenesCarrusel sigImagen">
+                <img src="imagenes/inicio/carrusel3.jpg" style="width:100%; height: 600px">
+            </div>
+
+            <div class="imagenesCarrusel sigImagen">
+                <img src="imagenes/inicio/carrusel1.jpg" style="width:100%; height: 600px">
+            </div>
+            
+           
+
+        </div>
+
+    </div>
+
+
+    <script src="js/carruselInicio.js"></script>
+    <script src="js/botonRedesInicio.js"></script>
+
+</body>

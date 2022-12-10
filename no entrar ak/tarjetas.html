@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pagina seria</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="icon" href="imagenes/Miniatura.jpg" type="image/x-icon">
+    </head>
+    <body class="fondoTarjetas">
+        <div class="panelTarjetas">
+            <div id="botonesTarjetas">
+                <div class="tarjetas">
+                    <ul style="list-style-type: none">
+                        <li>
+                            <div class="tarjetaUnidad">
+                                <div id="tarjeta1">
+                                    <img src="imagenes/cartasGrandes.png" class="tarjetaImgaen">
+                                </div>
+                                <div class="divTextoPreguntas" id="texto1">
+                                    <h2 class="textoPregunta">¿Se le antoja una sopa?</h2>
+                                </div>
+                            </div>
+                        </li>
+                        
+                        <li>
+                            <div class="tarjetaUnidad">
+                                <div id="tarjeta2">
+                                    <img src="imagenes/cartasGrandes.png" class="tarjetaImgaen">
+                                </div>
+                                <div class="divTextoPreguntas" id="texto2">
+                                    <h2 class="textoPregunta">¿Le gusta Eduar?</h2>
+                                </div>
+                            </div>
+                        </li>
+                        
+                        <li>
+                            <div class="tarjetaUnidad">
+                                <div id="tarjeta3">
+                                    <img src="imagenes/cartasGrandes.png" class="tarjetaImgaen">
+                                </div>
+                                <div class="divTextoPreguntas" id="texto3">
+                                    <h2 class="textoPregunta">¿Messi es mejor que CR7?</h2>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="botones">
+                    <ul style="list-style-type: none">
+                        <li>
+                            <button class="botonAtras"  onclick="tarjeta(1)">
+                                <img src="imagenes/negativoPex.png" class="imgAtr">
+                            </button>
+                        </li>
+                        
+                        <li >
+                            <button class="botonSiguiente" onclick="tarjeta(1)">
+                                <img src="imagenes/chulito.png" class="imgSig">
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="textoTal" id="textoTal">
+
+                <i>Aunque llevamos muy poco habalndo y conociendonos, la vida se ha vuelto
+                    sin duda alguna, lo más hermosa posible. Todo a su lado es solo felicidad y tranquilidad. 
+                    Usted, sus brazos, su mirada y su esencia me traen esa paz que no pensaba encontrar.
+                </i>
+                <i>Pensé que realemnte no quería nada, hasta que me sentí en sus brazos, teniendolo todo.</i>
+                <p>Sin nada más para agregar, puede continuar con la última pregunta.</p>
+                <button class="botonContinuar" onclick="tarjeta(5)">Continuar</button>
+            
+
+            </div>
+
+            <div class="textoPropuesta" id="propuesta">
+                <ul style="list-style-type: none">
+                    <li>
+                        <div class="textoBotonIzq">
+                            <div>
+                                <button class="estiloBotonesizq" onclick="tarjeta(6)">Si</button>
+                            </div>
+                            <div class="textoConsecuencias">
+                                <p>Consecuencia</p>
+                                <i>Sonreir</i>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <div class="textoCentro ">
+                            <p class="textoArriba"><i>La siguiente pregunta tendrá dos opciones de respuesta, pero,
+                                cada una tiene consigo una consecuencia para ejecutarla.
+                            </i></p>
+                            <p> .</p>
+
+                            <p class="textoGrande"><i>¿Desea usted unir su vida a la mía en un noviazgo juvenil
+                                que termine en un por siempre?</i></p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="textoBotonDer">
+                            <button class="estiloBotonesDer" onclick="tarjeta(7)">No</button>
+                            <div class="textoConsecuencias">
+                                <p>Consecuencia</p>
+                                <i>Hacer un mortal hacia atrás con una serpiernte atada a una pierna</i>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <img src="imagenes/mibbGrandota.jpg" width="auto" height="500px" class="imgBB" id="imgBB">
+            <p class="ultimoTexto"><i>Gracias por todo amor mío ♡</i></p>
+            
+        </div>
+        
+        <script src="js/tarjetas.js"></script>
+    </body>
+</html>

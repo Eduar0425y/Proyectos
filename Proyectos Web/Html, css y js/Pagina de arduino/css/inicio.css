@@ -1,0 +1,420 @@
+.bodyFondo{
+    background-color: rgb(15, 15, 20);
+}
+
+/*Header*/
+
+.headerInicio{
+    margin: 0px;
+    border: 1px solid rgba(165, 42, 42, 0);
+    margin-top: 5px;
+    height: 120px;
+    margin-bottom: 20px;
+    background-color: rgb(15, 15, 20);
+}
+
+.tituloInicio{
+    width: 100%;
+    height: 55px;
+    overflow: hidden;
+    border: 1px solid rgba(165, 42, 42, 0);
+    border-bottom: 1px solid rgba(143, 142, 142, 0.205);
+}
+
+.logosBarak{
+    float: left;
+    width: 15%;
+    height: 55px;
+    overflow: hidden;
+    border-right: 1px solid rgba(143, 142, 142, 0.205);
+}
+
+.logoHeader{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 4px;
+    border-right: 1px solid rgba(50, 167, 202, 0.192) ;
+    box-shadow:  -10px 4px 20px rgba(50, 167, 202, 0.322);
+}
+
+.contenedorBucador{
+    float: right;
+}
+
+.buscadorEntrada{
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: 1px sold black;
+    padding-right: 270px;
+}
+
+.contenedorBoton{
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.contenedorBoton:hover{
+    background: rgb(156, 155, 155);
+}
+
+/*Menu de navegación*/
+
+.contenedorNav{
+    width: 100%;
+    height: 55px;
+    overflow: hidden;
+    border: 1px solid rgba(165, 42, 42, 0);
+    margin-top: 5px;
+}
+
+.columnasMenuNav{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.filasMenuNav{
+    float: left;
+}
+
+.filasMenuNavDerecha{
+    float: right;
+}
+
+.botonMenuNav{
+    display: block;
+    border-right-style: solid;
+    border-right: 1px solid rgba(50, 167, 202, 0.192) ;
+    margin-right: 1px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: rgb(15, 15, 20);
+    width: 80px;
+    transition: width 1s;
+}
+
+.botonMenuNav:hover{
+    background-color: rgba(2, 106, 167, 0.685);
+    border-right: 1px solid rgba(255, 255, 255, 0.192) ;
+    border: 1px solid rgba(255, 255, 255, 0.192) ;
+    width: 140px;
+}
+
+.botonMenuNavDerecha{
+    display: block;
+    border-left: 1px solid rgba(50, 167, 202, 0.192) ;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: rgb(15, 15, 20);
+    width: 80px;
+    transition: width 1s;
+    cursor: pointer;
+}
+
+.botonMenuNavDerecha:hover{
+    background-color: rgba(2, 106, 167, 0.685);
+    border-left: 1px solid rgba(255, 255, 255, 0.192) ;
+    border: 1px solid rgba(255, 255, 255, 0.192) ;
+    width: 140px;
+}
+
+/*Cuerpo*/
+
+.cuerpoInicio{
+    background-color: rgb(15, 15, 20);
+    margin-left: -10px;
+    margin-right: -8px;
+    margin-top: -15px;
+    position: relative;
+}
+
+.contenedorLogo {
+    width: 45%;
+    height: 600px;
+    position: absolute;
+    margin: auto;
+    float: left;
+    border-radius: 0px;
+    overflow: hidden;
+    background-image: linear-gradient(to right, rgb(15, 15, 20) 70%, rgba(15, 15, 20, 0));
+}
+
+.textoLogo{
+    width: 52%;
+    height: 300px;
+    margin-left: 5%;
+    margin-top: 20px;
+    background-color: rgba(226, 3, 3, 0);
+    overflow: hidden;
+}
+
+.textoAnimacion{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.animacionTexto{
+    animation-name: animacionTextoLogo;
+    animation-duration: 20s;
+}
+
+.imagenesCarrusel {
+    display: none;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.contenedorCarrusel {
+    width: 70%;
+    position: relative;
+    right: 0px;
+    float: right;
+    z-index: -1;
+}
+
+.sigImagen {
+    animation-name: animacionImagen;
+    animation-duration: 600ms;
+}
+
+.logoIzquierdaCarrusel{
+    padding-left: 12%;
+    padding-right: 48%;
+    height: 10%;
+    width: 40%;
+    margin-top: 8%;
+}
+
+.aniBarakLogo{
+    animation-name: animacionBarakLogo;
+    animation-duration: 3s;
+}
+
+.botonSalirRedes{
+    right: 0px;
+    top: 45%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px 0px 0px 50px;
+    background-color: rgba(160, 159, 159, 0.925);
+    position: absolute;
+    overflow: hidden;
+    z-index: +1;
+}
+
+.imgBotonSalirRedes{
+    width: 55px;
+    height: 55px;
+    margin-left: -4px;
+    margin-right: -6px;
+}
+
+.contenedorBotonIconosRedes{
+    overflow: hidden;
+    width: 55px;
+    border-radius: 0px;
+    z-index: +3;
+    border: 1px solid rgba(165, 42, 42, 0);
+    position: absolute;
+    width: 90px;
+    height: 600px;
+    right: 0px;
+    top: 0px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.contenedorIconosRedes{
+    width: 90px;
+    height: 340px;
+    right: -90px;
+    top: 21%;
+    border-radius: 0px;
+    position: absolute;
+    z-index: +1;
+    background-color: rgba(160, 159, 159, 0.788);
+    border-radius: 20px 0px 0px 20px;
+    visibility: hidden;
+    display: none;
+    overflow: hidden;
+    margin-bottom: 300px;
+}
+
+.animacionRedes{
+    animation-name: animacionRedescontenedor;
+    animation-duration: 1s;
+}
+
+.iconosRedesSocialesFacebookInicio{
+    padding-top: -15px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 24%;
+}
+
+.iconosRedesSocialesFacebookInicio:hover{
+    background-color: #4867aa;
+}
+
+.iconosRedesSocialesTwitterInicio{
+    padding-top: -15px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 24%;
+}
+
+.iconosRedesSocialesTwitterInicio:hover{
+    background-color: #1da1f2;
+}
+
+.iconosRedesSocialesIgInicio{
+    padding-top: -15px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 24%;
+}
+
+.iconosRedesSocialesIgInicio:hover{
+    background-color: #cc2e85;
+    background-image: linear-gradient(to top right, rgb(201, 172, 10), rgba(128, 0, 128, 0.548), #cc2e85);
+}
+
+.flchaDerechaRedes{
+    margin-left: 30%;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 100%;
+    cursor: pointer;
+    float: left;
+    padding-bottom: -5px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgba(0, 0, 0, 0.788);
+}
+
+/*footer*/
+
+.footerInicio{
+    width: 55%;
+    margin-left: 3%;
+    height: 80px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.iconoGmail{
+    float: left;
+    width: 55px;
+    border-right: 1px solid rgba(255, 255, 255, 0.192) ;
+    height: 50px;
+}
+
+.imgIconoGmail{
+    width: 40px;
+    margin-left: 8px;
+    margin-top: 4px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    background-color: gray;
+}
+
+.imgIconoGmail:hover{
+    background-color: rgb(71, 71, 71);
+}
+
+.correoElectronico{
+    text-align: center;
+    float: left;
+    width: 220px;
+    height: 50px;
+    color: white;
+}
+
+.iconoComentario{
+    float: left;
+    width: 55px;
+    border-left: 1px solid rgba(255, 255, 255, 0.192) ;
+    height: 50px;
+}
+
+.imgIconoComentario{
+    width: 28px;
+    margin-left: 8px;
+    margin-top: 4px;
+    padding:6px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    background-color: gray;
+}
+
+.imgIconoComentario:hover{
+    background-color: rgb(71, 71, 71);
+}
+
+.derechosReservados{
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-top: 2px;
+}
+
+/*Animaciones*/
+
+@keyframes animacionRedescontenedor {
+    from {right: -90px;}
+    to {right: 0px;}
+}
+
+@keyframes animacionRedescontenedorCerrado {
+    from {right: 0px;}
+    to {right: -90px;}
+}
+
+@keyframes animacionBarakLogo {
+    from {margin-top: 100%;} 
+    to {margin-top: 0%;}
+}
+
+@keyframes animacionImagen {
+    from {opacity: 0.4;} 
+    to {opacity: 1;}
+}
+
+@keyframes animacionTextoLogo{
+    from {margin-top: 100%;} 
+    to {margin-top: -60%;}
+}

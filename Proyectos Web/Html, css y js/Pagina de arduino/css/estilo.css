@@ -1,0 +1,785 @@
+.cuerpoClase{
+    background-color: rgb(15, 15, 20);
+}
+
+
+/*Header*/
+
+.header{
+    margin: 0px;
+    border: 1px solid rgba(165, 42, 42, 0);
+    margin-top: 5px;
+    height: 120px;
+    margin-bottom: 20px;
+    background-color: rgb(15, 15, 20);
+}
+
+.titulo{
+    width: 100%;
+    height: 55px;
+    overflow: hidden;
+    border: 1px solid rgba(165, 42, 42, 0);
+    border-bottom: 1px solid rgba(143, 142, 142, 0.205);
+}
+
+.logosBarak{
+    float: left;
+    width: 15%;
+    height: 55px;
+    overflow: hidden;
+    border-right: 1px solid rgba(143, 142, 142, 0.205);
+    transition: background-color 1s;
+}
+
+.logosBarak:hover{
+    background-color: rgba(2, 106, 167, 0.685);
+}
+
+.logoHeader{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 4px;
+    border-right: 1px solid rgba(50, 167, 202, 0.192) ;
+    box-shadow:  -10px 4px 20px rgba(50, 167, 202, 0.322);
+}
+
+.contenedorBucador{
+    float: right;
+}
+
+.buscadorEntrada{
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: 1px sold black;
+    padding-right: 270px;
+}
+
+.contenedorBoton{
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.contenedorBoton:hover{
+    background: rgb(156, 155, 155);
+}
+
+/*Menu de navegación*/
+
+.contenedorNav{
+    width: 100%;
+    height: 55px;
+    overflow: hidden;
+    border: 1px solid rgba(165, 42, 42, 0);
+    margin-top: 5px;
+}
+
+.columnasMenuNav{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.filasMenuNav{
+    float: left;
+}
+
+.filasMenuNavDerecha{
+    float: right;
+}
+
+.botonMenuNav{
+    display: block;
+    border-right-style: solid;
+    border-right: 1px solid rgba(50, 167, 202, 0.192) ;
+    margin-right: 1px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: rgb(15, 15, 20);
+    width: 80px;
+    transition: width 1s;
+}
+
+.botonMenuNav:hover{
+    background-color: rgba(2, 106, 167, 0.685);
+    border-right: 1px solid rgba(255, 255, 255, 0.192) ;
+    border: 1px solid rgba(255, 255, 255, 0.192) ;
+    width: 140px;
+}
+
+.botonMenuNavDerecha{
+    display: block;
+    border-left: 1px solid rgba(50, 167, 202, 0.192) ;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: rgb(15, 15, 20);
+    width: 80px;
+    transition: width 1s;
+    cursor: pointer;
+}
+
+.botonMenuNavDerecha:hover{
+    background-color: rgba(2, 106, 167, 0.685);
+    border-left: 1px solid rgba(255, 255, 255, 0.192) ;
+    border: 1px solid rgba(255, 255, 255, 0.192) ;
+    width: 140px;
+}
+
+/*Cuerpos*/
+
+.cuerpoInicio{
+    margin-top: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.textoIzquierdoInicio{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid #00000000;
+    height: auto;
+    text-align: justify;
+    background-color: rgb(15, 15, 20);
+    color: rgb(204, 202, 202);
+}
+
+.textoDerechoInicio{
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    float: right;
+    width: 300px;
+    height: auto;
+    border: 1px solid #797979b0;
+    padding-right: 5px;
+    padding-left: 5px;
+    background-color: rgb(15, 15, 20);
+    border-radius: 5px;
+}
+
+.tituloTextoDerecha{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: rgba(2, 106, 167, 0.685);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.segundoTituloTextoDerecha{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: rgba(2, 106, 167, 0.685);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 235px;
+}
+
+.subtitulosTextoDerecha{
+    font-size: 15px;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    margin-bottom: 5px;
+}
+
+.subtitulosTextoDerecha::link{
+    color: white;
+}
+
+.imagenTextoDerecha{
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    float: left;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.titulosIzquierda1{
+    border-bottom: 1px solid rgb(48, 47, 47);
+    margin-right: 320px;
+    padding-bottom: 5px;
+}
+
+.titulosIzquierda{
+    border-bottom: 1px solid rgb(48, 47, 47);
+    padding-bottom: 5px;
+}
+
+.imagenesTextoInicioDerecha{
+    float: right;
+    padding: 3px;
+    margin: 3px;
+    margin-left: 10px;
+    border: 1px solid rgb(77, 74, 74);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.tablaMemoria{
+    margin: 20px;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.cuadroTablaMemoria{
+    width: 32%;
+    height: auto;
+    text-align: center;
+}
+
+.textoTablaMemoria{
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 1px solid rgb(77, 74, 74);
+}
+
+.divFinal{
+    border-top: 1px solid rgba(50, 167, 202, 0.192) ;
+    margin-top: 7px;
+    border-radius: 5px;
+    padding-top: 5px;
+}
+
+.columnasFinalPagina{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgb(15, 15, 20);
+}
+
+.botonFinalPaginaIzquierda{
+    display: block;
+    border-right: 1px solid rgba(50, 167, 202, 0.192) ;
+    margin-right: 1px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.botonFinalPaginaIzquierda:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-left-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botonFinalPaginaDerecha{
+    border-left: 1px solid rgba(50, 167, 202, 0.192) ;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 22px 16px;
+    text-decoration: none;
+}
+
+.botonFinalPaginaDerecha:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-left-color: black;
+    border-radius: 5px;
+}
+
+.filaDerechaFinalPagina{
+    float: left;
+}
+
+.filaIzquierdaFinalPagina{
+    float: right;
+}
+
+.textoContacto{
+    color: white;
+    text-align: center;
+}
+
+.divRedesSociales{
+    background-color: rgb(15, 15, 20);
+    margin-top: 7px;
+    border-radius: 5px;
+    padding-bottom: 50px;
+    border-top: 1px solid rgba(50, 167, 202, 0.192);
+}
+
+.iconosRedesSocialesFacebook{
+    padding-top: -15px;
+    margin-top: -10px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid rgba(50, 167, 202, 0.192);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.iconosRedesSocialesFacebook:hover{
+    background-color: #4867aa;
+}
+
+.iconosRedesSocialesTwitter{
+    padding-top: -15px;
+    margin-top: -10px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid rgba(50, 167, 202, 0.192);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.iconosRedesSocialesTwitter:hover{
+    background-color: #1da1f2;
+}
+
+.iconosRedesSocialesIg{
+    padding-top: -15px;
+    margin-top: -10px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid rgba(50, 167, 202, 0.192);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.iconosRedesSocialesIg:hover{
+    background-color: #cc2e85;
+    background-image: linear-gradient(to top right, rgb(201, 172, 10), rgba(128, 0, 128, 0.548), #cc2e85);
+}
+
+.divIconos{
+    margin-left: 40%;
+}
+
+.derechosReservados{
+    text-align: center;
+    color: gray;
+    padding-top: 10px;
+}
+
+.tituloArduinos{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.divTiposArduino{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-top: 1px solid rgba(50, 167, 202, 0.192);
+    border-radius: 5px;
+    background-color: rgb(15, 15, 20);
+    height: 400px;
+    color: white;
+}
+
+.divTiposArduino:hover{
+    height: 600px;
+}
+
+.divImagenesTipoArduino{
+    margin-left:5%;
+    margin-right: 5%;
+    margin-bottom: 10px;
+}
+
+.divcontenedorImagenYTextoArduino{
+    float: left;
+    padding: 5px;
+    border: 1px solid rgba(50, 167, 202, 0.192);
+    margin-left: 2%;
+    width: 13%;
+    height: 170px;
+    background-color: rgba(63, 63, 66, 0.658);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.divcontenedorImagenYTextoArduino:hover{
+    color: white;
+    width: 18%;
+    margin-left: 1%;
+    margin-right: -1%;
+}
+
+.divcontenedorImagenYTextoArduino:hover .imagenContenedorArduino {
+    size: 340px;
+    width: 210px;
+    padding-top: 0px;
+    height: auto;
+}
+
+.divcontenedorImagenYTextoArduino:hover .imagenContenedorArduinoLeonardo{
+    size: 340px;
+    width: 170px;
+    padding-left: 20px;
+    height: auto;
+}
+
+.divcontenedorImagenYTextoArduino:hover .textoContenedorArduino{
+    border: 1px solid #ffffff00;
+    border-radius: 10px;
+    background-color: rgb(25, 25, 35);
+    overflow: visible;
+    height: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.imagenContenedorArduino{
+    padding-top: 10px;
+    position: absolute;
+    width: 150px;
+    height: auto;
+}
+
+.imagenContenedorArduinoLeonardo{
+    padding: 0px;
+    position: absolute;
+    width: 150px;
+    height: auto;
+}
+
+.textoContenedorArduino{
+    text-align: center;
+    color: white;
+    padding-top: 110px;
+    height: 40px;
+    overflow: hidden;
+    border: 1px solid #55565700;
+}
+
+.divSensores{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid #212a3400;
+    height: 650px;
+    width: 100%;
+}
+
+.divSensoresTexto{
+    float: left;
+    width: 22%;
+    border: 1px solid gray;
+    color: white;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    margin-left: 10px;
+    height: 628px;
+    overflow: hidden;
+    transition: background-color 1s;
+}
+
+.divSensoresTexto:hover{
+    color: white;
+    background-color: rgb(165, 163, 163);
+    overflow: visible;
+    height: auto;
+    width: 22%;
+    color: black;
+}
+
+.divSensoresImagenes{
+    float: right;
+    border: 1px solid gray;
+    color: white;
+    margin-left: 10px;
+    position: relative;
+    width: 72%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+    height: 628px;
+    transition: background-color 1s;
+}
+
+.divSensoresImagenes:hover{
+    color: black;
+    background-color: rgb(165, 163, 163);
+}
+
+.tituloSensores{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 0px;
+    margin-top: 5px;
+}
+
+.textoSensores{
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titulodivImagenSensores{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0px;
+}
+
+.divImagenesSensores{
+    width: 97%;
+    padding: 1%;
+}
+
+.contenedorTextoImagenSensores{
+    margin-left: 3.7%;
+    margin-bottom: 4%;
+    float: left;
+    width: 20%;
+    height: 145px;
+    border: 1px solid black;
+    overflow: hidden;
+    background-color: rgba(22, 27, 36, 0.493);
+    border-radius: 5px;
+}
+
+.imagenSensor{
+    width: 60%;
+    padding-left: 20%;
+    height: auto;
+}
+
+.imagenSensor:hover{
+    width: 80%;
+    padding-left: 10%;
+    height: auto;
+    padding-bottom: 100px;
+}
+
+.divDescargas{
+    width: 100%;
+    height: 310px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.divEleccionDescargas{
+    height: 300px;
+    width: 74%;
+    float: left;
+    margin-right: 2%;
+    border-radius: 5px;
+    margin-left: 10px;
+    border: 1px solid rgba(50, 167, 202, 0.192);
+    color: white;
+}
+
+.divDescargaBoton{
+    height: 300px;
+    width: 22%;
+    float: right;
+    border: 1px solid rgba(50, 167, 202, 0.192);
+    color: white;
+    margin-right: 10px;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.divDescargaBoton:hover{
+    background-image: linear-gradient(to top , rgb(0, 0, 0), #ababad6e, #868686);
+    border: 1px solid black;
+    color: black;
+}
+
+.botonDescargar{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 140px 65px;
+    cursor: pointer;
+    background-color: #212a3491;
+    visibility: hidden;
+}
+
+.botonDescargar:hover{
+    background-color: rgb(9, 9, 27);
+    color: white;
+}
+
+.botonDescargar::link{
+    color: white;
+}
+
+.textoDescargaZonaDescarga{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    margin-left: -15px;
+}
+
+.textoDescargaZonaSistemas{
+    text-align: center;
+    border: 1px solid rgba(165, 163, 163, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -10px;
+}
+
+.divContenedoresDescargas{
+    padding-left: 15%;
+    padding-top: 15px;
+}
+
+.contenedorImagenyTextoSistema{
+    float: left;
+    margin-left: 6%;
+    margin-bottom: 20px;
+    width: 20%;
+    height: 70px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color: #212a34ab;
+    cursor: pointer;
+}
+
+.contenedorImagenyTextoSistema:hover{
+    background-color: rgb(3, 4, 24);
+}
+
+.textoDescargaTipoSistema{
+   margin-top: -70px;
+   text-align: center;
+   color: red;
+}
+
+.imgenLinuxARMx64Bits{
+    position: absolute;
+    width: 60px;
+    height: auto;
+    padding-top: 15px;
+    padding-left: -10px;
+}
+
+.imagenWindows7{
+    position: absolute;
+    width: 100px;
+    height: auto;
+    padding-top: 15px;
+    margin-left: -13px;
+    margin-top: -7px;
+}
+
+.imagenWindows10{
+    position: absolute;
+    width: 30px;
+    height: auto;
+    padding-top: 19px;
+    padding-left: 15px;
+}
+
+.imagenMacOs{
+    position: absolute;
+    width: 55px;
+    height: auto;
+    padding-top: 15px;
+    padding-left: -5px;
+}
+
+.imagenLinux32Bits{
+    position: absolute;
+    width: 60px;
+    height: auto;
+    padding-top: 18px;
+    padding-left: -10px;
+}
+
+.imagenLinux64Bits{
+    position: absolute;
+    width: 45px;
+    height: auto;
+    padding-top: 15px;
+    padding-left: 8px;
+}
+
+.textoImagenSistema{
+    color: white;
+    padding-left: 55px;
+    text-align: center;
+    padding-right: 10px;
+}
+
+.cuerpoAyuda{
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    border-top: 1px solid rgba(50, 167, 202, 0.192);
+    height: auto;
+    text-align: justify;
+    background-color: rgb(15, 15, 20);
+    color: white;
+}
+
+.cuadroIngresoDatos{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border: 1px solid black;
+    background-color: rgba(72, 85, 85, 0.233);
+    border-radius: 10px;
+    height: auto;
+    width: 60%;
+}
+
+.cuadroIngresoDatos:hover{
+    background-color: rgba(50, 167, 202, 0.192);
+    color: rgb(212, 211, 211);
+}
+
+.textoCuadroAyuda{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.textoDentroCuadroAyuda{
+    text-align: center;
+    font-family: cursive;
+    font-size: 15px;
+}
